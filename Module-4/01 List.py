@@ -21,3 +21,16 @@ print(list3[-1:-5:-1]) #slicing with step
 
 list3[3] = 'watermelon' #mutability
 print(list3)
+# using lopping statement to iterate through the list
+for x in list3:
+    print(x)
+
+list_items = [1,2,3,4,5,6,7,8,9,'Abc',True,1.2]
+for x in list_items:
+    print(str(x)) #this will give error because list_items[x] is not valid as x is the value not index. It should be print(x) instead of print(list_items[x])    
+
+for x in list_items[0:list_items.index("Abc")]:
+    print(x) #this will give error because list_items.index("Abc") returns the index of the first occurrence of "Abc" in the list, which is 9. It should be print(list_items.index("Abc")) instead of print(x)
+
+print("-------------------------------")
+print(list_items.index(9))
