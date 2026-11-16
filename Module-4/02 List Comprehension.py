@@ -43,3 +43,14 @@ print(list_items)
 #pop method removes and returns the last element of the list or the element at a specific index
 #sort method sorts the elements of the list in ascending order, for same data types
 #index method returns the index of the first occurrence of an element in the list
+
+numbers = [11, 2, 33, 4, 5, 6, 7, 8, 9,24,54,12,13,14,15,16,17,18,19,20]
+#enumerate method returns an enumerate object, which contains pairs of index and value for each element in the list
+for index, value in enumerate(numbers):
+    print(f"Index: {index}, Value: {value}")
+
+lyst = [1, 2, 3, 4, 5]
+#list comprehension is a concise way to create lists in Python
+for i,v in enumerate(lyst):
+    print(f"Index: {i}, Value: {v}")
+    
