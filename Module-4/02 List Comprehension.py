@@ -53,4 +53,6 @@ lyst = [1, 2, 3, 4, 5]
 #list comprehension is a concise way to create lists in Python
 for i,v in enumerate(lyst):
     print(f"Index: {i}, Value: {v}")
-    
+
+#len function returns the number of elements in the list
+print(len(lyst))
