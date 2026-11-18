@@ -62,3 +62,5 @@ print(num_1+num_2)
 num_3 = (1,3,4)
 num_4 = (4,5,6)
 print(num_3+num_4)
+
+print(num_3*3)
