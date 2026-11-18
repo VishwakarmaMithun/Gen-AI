@@ -34,3 +34,7 @@ for x in list_items[0:list_items.index("Abc")]:
 
 print("-------------------------------")
 print(list_items.index(9))
+
+a =[1,2,3,5,65]
+print(sum(a))
+print(max(a))
