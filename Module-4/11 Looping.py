@@ -21,3 +21,18 @@ for i in range(0,51):
         print(i);
 
 #------------------------------------------
+
+for i in range(51):
+    if i%2==0:
+        print(i)
+    else :
+        break;
+
+#divison of number where denominator is 0
+number_1 = int(input("Enter the numnerator value :"))
+number_2 = int(input("Enter the denominator :"))
+if number_2 ==0 :
+    print("Enter denominator >0 :")
+    pass
+else:
+    print(number_1/number_2)
