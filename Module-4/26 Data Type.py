@@ -42,3 +42,13 @@ print(age1)
 hgt = float(input("Enter the height :"))
 print(hgt)
 
+Bool_example = True
+print(int(Bool_example)) 
+#data types are classification of data which tells the compiler or the interpreter that what kind of value we can store in a variable
+#it will also tell how much amount of memory will be stored
+
+agex = input("Enter the age of emp :")
+print(agex)
+print(type(agex))
+agex2 = 45
+print(int(agex) + agex2)
