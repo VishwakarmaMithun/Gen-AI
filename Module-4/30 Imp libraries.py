@@ -1,4 +1,5 @@
 #python standard library comes with was collection of packages
+from calendar import month
 from datetime import datetime
 from math import *
 import random
@@ -32,3 +33,10 @@ with open('example.txt',mode='r') as file:
         print(r)
 '''
 #Date Time library
+
+from datetime import datetime, timedelta
+print(datetime.now())
+print(datetime.now()-timedelta(days=1))
+print(datetime.now()-timedelta(minutes=24))
+
+
